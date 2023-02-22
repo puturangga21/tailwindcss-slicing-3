@@ -7,4 +7,9 @@
 
 html {
    font-family: Syncopate, sans-serif;
+   scroll-behavior: smooth;
+}
+
+body {
+   background-color: #C2F4FF;
 }
