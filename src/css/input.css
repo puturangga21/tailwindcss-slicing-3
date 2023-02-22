@@ -13,3 +13,6 @@ html {
 body {
    background-color: #C2F4FF;
 }
+.custom-text {
+   writing-mode: vertical-lr;
+}
