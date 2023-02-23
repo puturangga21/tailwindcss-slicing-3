@@ -4,14 +4,20 @@
 @tailwind components;
 @tailwind utilities;
 
-
+* {
+   border-color: #2e2e2e;
+   border-right-color: #2e2e2e;
+   border-left-color: #2e2e2e;
+   border-top-color: #2e2e2e;
+   border-bottom-color: #2e2e2e;
+}
 html {
    font-family: Syncopate, sans-serif;
    scroll-behavior: smooth;
 }
 
 body {
-   background-color: #C2F4FF;
+   background-color: #c2f4ff;
 }
 .custom-text {
    writing-mode: vertical-lr;

@@ -11,8 +11,9 @@
    <body>
       <!-- START HEADER -->
       <header class="lg:pt-[150px]" id="home">
-         <div class="container">
-            <div class="flex h-[70px] items-center justify-between border-primary-dark lg:h-[100px] lg:border-4">
+         <div class="container pb-[70px] lg:pb-0">
+            <div
+               class="fixed top-0 left-0 z-50 flex h-[70px] w-[100%] items-center justify-between border-primary-dark lg:static lg:h-[100px] lg:border-4">
                <div
                   class="flex h-full items-center justify-center border-primary-dark bg-natural-white pl-4 lg:w-[100px] lg:border-r-4 lg:pl-0">
                   <img src="src/img/logo-star.svg" alt="Message" class="w-[30px] lg:w-[41px]" />
@@ -61,7 +62,9 @@
                   </li>
                </ul>
 
-               <div class="flex h-full items-center justify-center bg-natural-white px-4 lg:hidden">
+               <div
+                  class="flex h-full cursor-pointer items-center justify-center bg-natural-white px-4 lg:hidden"
+                  id="hamburger">
                   <i class="bx bx-menu bx-sm"></i>
                </div>
 
@@ -69,12 +72,55 @@
                   <img src="src/img/msg.svg" alt="Message" />
                </div>
             </div>
+
+            <div
+               class="navbar-nav fixed top-0 left-0 z-50 mt-[70px] hidden h-[100%] w-[100%] bg-natural-white"
+               id="navbar-nav">
+               <ul class="absolute top-[40%] left-[50%] -translate-x-1/2 -translate-y-1/2 text-center">
+                  <li class="my-8 transition-all duration-200 hover:-translate-y-1">
+                     <a
+                        href="#home"
+                        class="text-xl uppercase text-natural-dark transition-all duration-200 hover:text-primary-dark">
+                        Home
+                     </a>
+                  </li>
+                  <li class="my-8 transition-all duration-200 hover:-translate-y-1">
+                     <a
+                        href="#work"
+                        class="text-xl uppercase text-natural-dark transition-all duration-200 hover:text-primary-dark">
+                        Work
+                     </a>
+                  </li>
+                  <li class="my-8 transition-all duration-200 hover:-translate-y-1">
+                     <a
+                        href="#"
+                        class="text-xl uppercase text-natural-dark transition-all duration-200 hover:text-primary-dark">
+                        About
+                     </a>
+                  </li>
+                  <li class="my-8 transition-all duration-200 hover:-translate-y-1">
+                     <a
+                        href="#"
+                        class="text-xl uppercase text-natural-dark transition-all duration-200 hover:text-primary-dark">
+                        Blog
+                     </a>
+                  </li>
+                  <li class="my-8 transition-all duration-200 hover:-translate-y-1">
+                     <a
+                        href="#"
+                        class="text-xl uppercase text-natural-dark transition-all duration-200 hover:text-primary-dark">
+                        Contact
+                     </a>
+                  </li>
+               </ul>
+            </div>
          </div>
       </header>
+
       <!-- END HEADER -->
 
       <!-- START HOME -->
-      <section class="">
+      <section>
          <div class="container">
             <div
                class="relative flex h-[780px] flex-wrap justify-between bg-natural-peach px-4 lg:h-[715px] lg:border-b-4 lg:border-r-4 lg:px-0">
@@ -245,7 +291,7 @@
                   <h1 class="custom-text text-xl uppercase">Some of our finest work</h1>
                </div>
 
-               <div class="z-50 mt-[50px] px-4 lg:px-0">
+               <div class="z-40 mt-[50px] px-4 lg:px-0">
                   <div class="flex w-full flex-wrap items-center justify-center gap-10 lg:gap-16">
                      <div class="self-start">
                         <h1 class="text-[20px] uppercase leading-none text-primary-dark lg:text-[30px]">
@@ -269,15 +315,17 @@
                      </div>
                   </div>
 
-                  <div class="flex w-full flex-wrap items-center justify-center gap-10 lg:gap-16 mt-[50px]">
+                  <div class="mt-[50px] flex w-full flex-wrap items-center justify-center gap-10 lg:gap-16">
                      <div class="self-start">
                         <h1 class="text-[20px] uppercase leading-none text-primary-dark lg:text-[30px]">
                            creative agency
                         </h1>
-                        <p class="mt-[2px] mb-[20px] font-robot text-[16px] leading-none text-natural-dark lg:mb-[30px]">
+                        <p
+                           class="mt-[2px] mb-[20px] font-robot text-[16px] leading-none text-natural-dark lg:mb-[30px]">
                            Branding, UIUX Design
                         </p>
-                        <p class="border-t-4 pt-[20px] font-robot text-[16px] text-natural-dark lg:w-[374px] lg:pt-[30px] lg:text-xl">
+                        <p
+                           class="border-t-4 pt-[20px] font-robot text-[16px] text-natural-dark lg:w-[374px] lg:pt-[30px] lg:text-xl">
                            Lorem Ipsum is simply text of the printingand typesetting industry.
                         </p>
                         <p class="mt-[20px] flex items-center gap-2 uppercase lg:mt-[30px]">
@@ -290,13 +338,17 @@
                      </div>
                   </div>
 
-                  <div class="flex w-full flex-wrap items-center justify-center gap-10 lg:gap-16 mt-[50px]">
+                  <div class="mt-[50px] flex w-full flex-wrap items-center justify-center gap-10 lg:gap-16">
                      <div class="self-start">
-                        <h1 class="text-[20px] uppercase leading-none text-primary-dark lg:text-[30px]">digital agency</h1>
-                        <p class="mt-[2px] mb-[20px] font-robot text-[16px] leading-none text-natural-dark lg:mb-[30px]">
+                        <h1 class="text-[20px] uppercase leading-none text-primary-dark lg:text-[30px]">
+                           digital agency
+                        </h1>
+                        <p
+                           class="mt-[2px] mb-[20px] font-robot text-[16px] leading-none text-natural-dark lg:mb-[30px]">
                            Branding, UIUX Design
                         </p>
-                        <p class="border-t-4 pt-[20px] font-robot text-[16px] text-natural-dark lg:w-[374px] lg:pt-[30px] lg:text-xl">
+                        <p
+                           class="border-t-4 pt-[20px] font-robot text-[16px] text-natural-dark lg:w-[374px] lg:pt-[30px] lg:text-xl">
                            Lorem Ipsum is simply text of the printingand typesetting industry.
                         </p>
                         <p class="mt-[20px] flex items-center gap-2 uppercase lg:mt-[30px]">
@@ -309,13 +361,17 @@
                      </div>
                   </div>
 
-                  <div class="flex w-full flex-wrap items-center justify-center gap-10 lg:gap-16 mt-[50px]">
+                  <div class="mt-[50px] flex w-full flex-wrap items-center justify-center gap-10 lg:gap-16">
                      <div class="self-start">
-                        <h1 class="text-[20px] uppercase leading-none text-primary-dark lg:text-[30px]">text portofolio</h1>
-                        <p class="mt-[2px] mb-[20px] font-robot text-[16px] leading-none text-natural-dark lg:mb-[30px]">
+                        <h1 class="text-[20px] uppercase leading-none text-primary-dark lg:text-[30px]">
+                           text portofolio
+                        </h1>
+                        <p
+                           class="mt-[2px] mb-[20px] font-robot text-[16px] leading-none text-natural-dark lg:mb-[30px]">
                            Branding, UIUX Design
                         </p>
-                        <p class="border-t-4 pt-[20px] font-robot text-[16px] text-natural-dark lg:w-[374px] lg:pt-[30px] lg:text-xl">
+                        <p
+                           class="border-t-4 pt-[20px] font-robot text-[16px] text-natural-dark lg:w-[374px] lg:pt-[30px] lg:text-xl">
                            Lorem Ipsum is simply text of the printingand typesetting industry.
                         </p>
                         <p class="mt-[20px] flex items-center gap-2 uppercase lg:mt-[30px]">
@@ -328,9 +384,12 @@
                      </div>
                   </div>
 
-                  <div class="flex items-center justify-center">
-                     <img src="src/img/get-started.svg" alt="Button" class="mt-[66px] lg:mt-[88px] mb-[100px] lg:mb-[142px] w-[220px]" />
-                  </div>
+                  <a class="flex items-center justify-center" href="#home">
+                     <img
+                        src="src/img/get-started.svg"
+                        alt="Button"
+                        class="mt-[66px] mb-[100px] w-[220px] cursor-pointer transition-all duration-200 hover:drop-shadow-xl lg:mt-[88px] lg:mb-[142px]" />
+                  </a>
                </div>
 
                <div class="z-50 hidden w-[103px] lg:flex lg:border-l-4 lg:border-r-4"></div>
@@ -340,5 +399,7 @@
       <!-- END SERVICE -->
 
       <section class="mt-96"></section>
+
+      <script src="src/js/script.js"></script>
    </body>
 </html>
