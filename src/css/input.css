@@ -22,3 +22,13 @@ body {
 .custom-text {
    writing-mode: vertical-lr;
 }
+
+.text-about-us {
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #fff;
+   color: transparent;
+}
+
+.text-about-us.custom {
+   -webkit-text-stroke-color: #2e2e2e;
+}
