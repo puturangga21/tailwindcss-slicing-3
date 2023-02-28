@@ -5,7 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-      <link rel="icon" href="src/img/logo-mini.svg">
+      <link rel="icon" href="src/img/logo-mini.svg" />
       <link rel="stylesheet" href="src/css/output.css" />
       <title>Slicing 3 | TailwindCSS</title>
    </head>
@@ -400,32 +400,34 @@
       <!-- START ABOUT US -->
       <section id="about">
          <div class="container flex-col items-center justify-center">
-            <div class="flex h-full lg:h-[600px] flex-wrap justify-center bg-primary-dark pb-20 lg:pb-0">
+            <div class="flex h-full flex-wrap justify-center bg-primary-dark pb-20 lg:h-[600px] lg:pb-0">
                <div class="flex flex-col items-center justify-center">
-                  <div class="relative text-center px-4 mt-20 lg:mt-0">
+                  <div class="relative mt-20 px-4 text-center lg:mt-0">
                      <img src="src/img/shape-3.svg" alt="Shape" class="absolute -left-[200px]" />
-                     <h1 class="text-2xl lg:text-[40px] uppercase text-natural-white leading-none">What makes us special?</h1>
-                     <p class="font-robot text-sm lg:text-xl text-natural-white mt-2">
+                     <h1 class="text-2xl uppercase leading-none text-natural-white lg:text-[40px]">
+                        What makes us special?
+                     </h1>
+                     <p class="mt-2 font-robot text-sm text-natural-white lg:text-xl">
                         Lorem Ipsum is simply dummy text of the <br />
                         printingand typesetting industry.
                      </p>
                   </div>
 
-                  <div class="mt-[45px] flex items-center flex-wrap lg:flex-nowrap justify-center px-4 lg:px-0">
+                  <div class="mt-[45px] flex flex-wrap items-center justify-center px-4 lg:flex-nowrap lg:px-0">
                      <div
-                        class="flex h-[190px] w-full lg:w-[305px] flex-col justify-center border-4 border-natural-white text-center">
+                        class="flex h-[190px] w-full flex-col justify-center border-4 border-natural-white text-center lg:w-[305px]">
                         <h1 class="text-about-us text-[60px] uppercase leading-none">50+</h1>
                         <p class="font-robot text-xl text-natural-white">Years of operation</p>
                      </div>
 
                      <div
-                        class="flex h-[190px] w-full lg:w-[305px] flex-col justify-center border-4 lg:border-l-0 border-l-4 border-t-0 lg:border-t-4 border-natural-white text-center">
+                        class="flex h-[190px] w-full flex-col justify-center border-4 border-l-4 border-t-0 border-natural-white text-center lg:w-[305px] lg:border-l-0 lg:border-t-4">
                         <h1 class="text-about-us text-[60px] uppercase leading-none">360</h1>
                         <p class="font-robot text-xl text-natural-white">Project Delivery</p>
                      </div>
 
                      <div
-                        class="flex h-[190px] w-full lg:w-[305px] items-center justify-center border-4 lg:border-l-0 border-l-4 border-t-0 lg:border-t-4 border-natural-white">
+                        class="flex h-[190px] w-full items-center justify-center border-4 border-l-4 border-t-0 border-natural-white lg:w-[305px] lg:border-l-0 lg:border-t-4">
                         <div class="flex h-[150px] w-[270px] flex-col justify-center bg-[#FFF969] text-center">
                            <h1 class="text-about-us custom text-[60px] uppercase leading-none">600+</h1>
                            <p class="font-robot text-xl text-primary-dark">Specialist</p>
@@ -433,7 +435,7 @@
                      </div>
 
                      <div
-                        class="flex h-[190px] w-full lg:w-[305px] flex-col justify-center border-4 lg:border-l-0 border-l-4 border-t-0 lg:border-t-4 border-natural-white text-center">
+                        class="flex h-[190px] w-full flex-col justify-center border-4 border-l-4 border-t-0 border-natural-white text-center lg:w-[305px] lg:border-l-0 lg:border-t-4">
                         <h1 class="text-about-us text-[60px] uppercase leading-none">75+</h1>
                         <p class="font-robot text-xl text-natural-white">Awards Of Exellency</p>
                      </div>
@@ -441,26 +443,105 @@
                </div>
             </div>
 
-            <div class="flex justify-between bg-natural-pink lg:h-[730px] h-[500px] px-4 lg:px-0">
-               <div class="z-50 hidden w-[100px] items-center justify-center lg:flex lg:border-r-4 lg:border-l-4 bg-[#c2f4ff]">
+            <div class="flex h-[500px] justify-between bg-natural-pink px-4 lg:h-[730px] lg:px-0">
+               <div
+                  class="z-50 hidden w-[100px] items-center justify-center bg-[#c2f4ff] lg:flex lg:border-r-4 lg:border-l-4">
                   <h1 class="custom-text text-xl uppercase">testimonials</h1>
                </div>
 
-               <div class="flex items-center justify-center flex-col relative ">
-                  <img src="src/img/shape-4.svg" alt="Shape" class="absolute top-[120px] left-0 w-[80px] lg:w-[102px]">
-                  <img src="src/img/shape-5.svg" alt="Shape" class="absolute lg:top-[60px] top-[40px] lg:-right-[120px] right-0 w-[90px] lg:w-[130px]">
-                  <img src="src/img/shape-6.svg" alt="Shape" class="absolute lg:top-[160px] top-[110px] lg:-right-[150px] right-0 w-[70px] lg:w-[93px]">
+               <div class="relative flex flex-col items-center justify-center">
+                  <img
+                     src="src/img/shape-4.svg"
+                     alt="Shape"
+                     class="absolute top-[120px] left-0 w-[80px] lg:w-[102px]" />
+                  <img
+                     src="src/img/shape-5.svg"
+                     alt="Shape"
+                     class="absolute top-[40px] right-0 w-[90px] lg:top-[60px] lg:-right-[120px] lg:w-[130px]" />
+                  <img
+                     src="src/img/shape-6.svg"
+                     alt="Shape"
+                     class="absolute top-[110px] right-0 w-[70px] lg:top-[160px] lg:-right-[150px] lg:w-[93px]" />
 
-                  
-                  <img src="src/img/banner-testimonial.svg" alt="Banner">
-                  <img src="src/img/shape-7.svg" alt="Shape" class="absolute bottom-[130px] right-0 w-[100px] lg:w-[141px]">
+                  <img src="src/img/banner-testimonial.svg" alt="Banner" />
+                  <img
+                     src="src/img/shape-7.svg"
+                     alt="Shape"
+                     class="absolute bottom-[130px] right-0 w-[100px] lg:w-[141px]" />
                </div>
 
-               <div class="z-50 hidden w-[103px] lg:flex lg:border-l-4 lg:border-r-4 bg-[#c2f4ff]"></div>
+               <div class="z-50 hidden w-[103px] bg-[#c2f4ff] lg:flex lg:border-l-4 lg:border-r-4"></div>
             </div>
          </div>
       </section>
       <!-- END ABOUT US -->
+
+      <!-- START FAQ -->
+      <section>
+         <!-- LABEL -->
+         <div
+            class="flex w-full items-center justify-evenly gap-2 border-t-4 border-b-4 bg-[#c2f4ff] px-4 py-6 lg:h-[290px]"
+            id="work">
+            <img src="src/img/shape-8.svg" alt="Shape" />
+            <img src="src/img/shape-9.svg" alt="Shape" />
+            <img src="src/img/shape-10.svg" alt="Shape" />
+            <img src="src/img/shape-11.svg" alt="Shape" />
+            <img src="src/img/shape-12.svg" alt="Shape" />
+            <img src="src/img/shape-13.svg" alt="Shape" />
+         </div>
+         <!-- LABEL -->
+
+         <div class="container">
+            <div class="flex h-[1900px] justify-between border-b-4 bg-[#F4F4F4]">
+               <div class="z-50 hidden w-[100px] items-center justify-center lg:flex lg:border-r-4 lg:border-l-4">
+                  <h1 class="custom-text text-xl uppercase">about us</h1>
+               </div>
+
+               <div class="z-40 flex px-4 lg:px-0">
+                  <div class="relative flex w-1/2 bg-[#7ADC8F]">
+                     <img src="src/img/card-1.svg" alt="Card" class="absolute left-[130px] mt-[50px] w-[270px]" />
+                     <img
+                        src="src/img/card-2.svg"
+                        alt="Card"
+                        class="absolute right-[70px] top-[400px] z-20 w-[270px]" />
+                     <img src="src/img/card-3.svg" alt="Card" class="absolute left-[70px] top-[750px] z-20 w-[320px]" />
+                     <img
+                        src="src/img/card-4.svg"
+                        alt="Card"
+                        class="absolute right-[70px] bottom-[550px] z-20 w-[270px]" />
+                     <img
+                        src="src/img/card-5.svg"
+                        alt="Card"
+                        class="absolute left-[120px] bottom-[200px] z-20 w-[270px]" />
+                     <img src="src/img/card-line.svg" alt="Card" class="absolute right-[70px] z-10 mt-[150px]" />
+                  </div>
+
+                  <div class="mt-[50px] w-1/2 px-4">
+                     <h1 class="w-[450px] text-[40px] font-bold uppercase leading-tight">
+                        Unique Solutions for You Business
+                     </h1>
+                     <p class="mt-3 font-robot text-xl">
+                        It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. <br />
+                        <br />
+                        of letters, as opposed to using 'Content here, content here', making it look like readable
+                        English. Many desktop
+                     </p>
+
+                     <a class="flex items-center justify-start" href="#home">
+                        <img
+                           src="src/img/button-about.svg"
+                           alt="Button"
+                           class="w-[220px] cursor-pointer transition-all duration-200 hover:drop-shadow-xl mt-[40px]" />
+                     </a>
+                  </div>
+               </div>
+
+               <div class="z-50 hidden w-[103px] lg:flex lg:border-l-4 lg:border-r-4"></div>
+            </div>
+         </div>
+      </section>
+      <!-- END FAQ -->
 
       <section class="mt-96"></section>
 
