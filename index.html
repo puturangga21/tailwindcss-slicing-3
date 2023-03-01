@@ -251,6 +251,8 @@
                      <img src="src/img/arrow-yellow.svg" alt="Icon" />
                   </div>
                </div>
+
+               <div class="z-50 hidden w-[103px] lg:flex lg:border-l-4"></div>
             </div>
          </div>
       </section>
@@ -477,29 +479,35 @@
       <!-- END ABOUT US -->
 
       <!-- START FAQ -->
-      <section>
+      <section class="relative bg-[#F4F4F4]">
          <!-- LABEL -->
          <div
             class="flex w-full items-center justify-evenly gap-2 border-t-4 border-b-4 bg-[#c2f4ff] px-4 py-6 lg:h-[290px]"
             id="work">
-            <img src="src/img/shape-8.svg" alt="Shape" />
-            <img src="src/img/shape-9.svg" alt="Shape" />
-            <img src="src/img/shape-10.svg" alt="Shape" />
-            <img src="src/img/shape-11.svg" alt="Shape" />
-            <img src="src/img/shape-12.svg" alt="Shape" />
-            <img src="src/img/shape-13.svg" alt="Shape" />
+            <img src="src/img/shape-8.svg" alt="Shape" class="w-[50px] lg:w-[178px]" />
+            <img src="src/img/shape-9.svg" alt="Shape" class="w-[50px] lg:w-[144px]"/>
+            <img src="src/img/shape-10.svg" alt="Shape" class="w-[50px] lg:w-[106px]"/>
+            <img src="src/img/shape-11.svg" alt="Shape" class="w-[50px] lg:w-[153px]"/>
+            <img src="src/img/shape-12.svg" alt="Shape" class="w-[50px] lg:w-[93px]"/>
+            <img src="src/img/shape-13.svg" alt="Shape" class="w-[50px] lg:w-[158px]"/>
          </div>
          <!-- LABEL -->
 
-         <div class="container">
-            <div class="flex h-[1900px] justify-between border-b-4 bg-[#F4F4F4]">
-               <div class="z-50 hidden w-[100px] items-center justify-center lg:flex lg:border-r-4 lg:border-l-4">
+         <!-- BG GRADIENT -->
+         <img src="src/img/bg-gradient4.svg" alt="Background" class="hidden lg:flex absolute z-0" />
+         <img src="src/img/bg-gradient5.svg" alt="Background" class="hidden lg:flex absolute z-0 right-0 bottom-0" />
+         <!-- BG GRADIENT -->
+
+         <div class="container z-10">
+            <div class="flex h-[600px] lg:h-[1900px] justify-between border-b-4 bg-[#F4F4F4]">
+               <div class="z-50 hidden w-[120px] items-center justify-center lg:flex lg:border-r-4 lg:border-l-4 bg-[#F4F4F4]">
                   <h1 class="custom-text text-xl uppercase">about us</h1>
                </div>
 
-               <div class="z-40 flex px-4 lg:px-0">
-                  <div class="relative flex w-1/2 bg-[#7ADC8F]">
+               <div class="z-40 flex px-4 lg:px-0 bg-[#F4F4F4]">
+                  <div class="relative lg:flex w-1/2 bg-[#7ADC8F] hidden">
                      <img src="src/img/card-1.svg" alt="Card" class="absolute left-[130px] mt-[50px] w-[270px]" />
+                     <img src="src/img/shape-14.svg" alt="Shape" class="absolute right-10 mt-[70px]">
                      <img
                         src="src/img/card-2.svg"
                         alt="Card"
@@ -516,11 +524,11 @@
                      <img src="src/img/card-line.svg" alt="Card" class="absolute right-[70px] z-10 mt-[150px]" />
                   </div>
 
-                  <div class="mt-[50px] w-1/2 px-4">
-                     <h1 class="w-[450px] text-[40px] font-bold uppercase leading-tight">
+                  <div class="mt-[50px] w-full lg:w-1/2 px-0 lg:px-4">
+                     <h1 class="lg:w-[450px] lg:text-[40px] text-3xl font-bold uppercase leading-tight">
                         Unique Solutions for You Business
                      </h1>
-                     <p class="mt-3 font-robot text-xl">
+                     <p class="mt-3 font-robot lg:text-xl text-lg">
                         It is a long established fact that a reader will be distracted by the readable content of a page
                         when looking at its layout. <br />
                         <br />
@@ -532,12 +540,12 @@
                         <img
                            src="src/img/button-about.svg"
                            alt="Button"
-                           class="w-[220px] cursor-pointer transition-all duration-200 hover:drop-shadow-xl mt-[40px]" />
+                           class="mt-[40px] w-[220px] cursor-pointer transition-all duration-200 hover:drop-shadow-xl" />
                      </a>
                   </div>
                </div>
 
-               <div class="z-50 hidden w-[103px] lg:flex lg:border-l-4 lg:border-r-4"></div>
+               <div class="z-50 hidden w-[130px] lg:flex lg:border-l-4 lg:border-r-4 bg-[#F4F4F4]"></div>
             </div>
          </div>
       </section>
