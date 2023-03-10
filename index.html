@@ -561,12 +561,12 @@
                   <h1 class="custom-text text-xl uppercase">Awards</h1>
                </div>
 
-               <div class="mt-[130px] mb-[130px] flex gap-20 px-4 lg:px-0">
-                  <div class="flex w-[460px] flex-col gap-[70px]">
+               <div class="mt-[80px] mb-[130px] flex flex-wrap gap-20 px-4 lg:mt-[130px] lg:flex-nowrap lg:px-0">
+                  <div class="flex flex-col gap-[50px] lg:w-[460px] lg:gap-[70px]">
                      <div>
                         <p class="mb-[18px] font-robot text-2xl uppercase">2018</p>
                         <h1 class="mb-[14px] text-3xl uppercase">Designers meeting</h1>
-                        <p class="font-robot text-xl uppercase">
+                        <p class="font-robot text-lg uppercase lg:text-xl">
                            It is a long established fact that reader will be distracted readable content of when
                            looking.
                         </p>
@@ -575,7 +575,7 @@
                      <div>
                         <p class="mb-[18px] font-robot text-2xl uppercase">2020</p>
                         <h1 class="mb-[14px] text-3xl uppercase">Service design</h1>
-                        <p class="font-robot text-xl uppercase">
+                        <p class="font-robot text-lg uppercase lg:text-xl">
                            It is a long established fact that reader will be distracted readable content of when
                            looking.
                         </p>
@@ -584,7 +584,7 @@
                      <div>
                         <p class="mb-[18px] font-robot text-2xl uppercase">2023</p>
                         <h1 class="mb-[14px] text-3xl uppercase">Packaging</h1>
-                        <p class="font-robot text-xl uppercase">
+                        <p class="font-robot text-lg uppercase lg:text-xl">
                            It is a long established fact that reader will be distracted readable content of when
                            looking.
                         </p>
@@ -612,16 +612,18 @@
 
                <div class="mt-[130px] mb-[130px] flex flex-col px-4 lg:px-0">
                   <div class="relative text-center">
-                     <h1 class="text-[40px] uppercase">Latest news</h1>
-                     <p class="font-robot text-xl">
-                        It is a long established fact that a reader <br />
-                        will be distracted by the readable.
+                     <h1 class="text-3xl uppercase lg:text-[40px]">Latest news</h1>
+                     <p class="mt-4 font-robot text-lg lg:text-xl">
+                        It is a long established fact that a reader will be distracted by the readable.
                      </p>
 
-                     <img src="src/img/shape-20.svg" alt="Shape" class="absolute right-28 -top-10 w-[160px]" />
+                     <img
+                        src="src/img/shape-20.svg"
+                        alt="Shape"
+                        class="absolute right-28 -top-28 hidden w-[160px] lg:flex" />
                   </div>
 
-                  <div class="mt-[45px] flex gap-16">
+                  <div class="mt-[45px] flex flex-wrap gap-16 lg:flex-nowrap">
                      <img src="src/img/blog1.png" alt="Blog" class="mx-auto" />
                      <img src="src/img/blog2.png" alt="Blog" class="mx-auto" />
                   </div>
@@ -643,16 +645,16 @@
          <div
             class="relative flex flex-col items-center justify-center border-t-4 border-b-4 bg-[url('../img/bg-contact-banner.svg')] bg-cover bg-center px-4 py-6 lg:h-[523px]"
             id="work">
-            <div class="mb-[58px] text-center text-natural-white">
-               <p class="mb-[15px] font-robot text-xl">Need a successful project?</p>
-               <h1 class="text-[40px] uppercase">Lets Work Together</h1>
+            <div class="mb-[40px] text-center text-natural-white lg:mb-[58px]">
+               <p class="mb-[15px] font-robot text-lg lg:text-xl">Need a successful project?</p>
+               <h1 class="text-3xl uppercase lg:text-[40px]">Lets Work Together</h1>
             </div>
 
             <div>
-               <img src="src/img/button-project.svg" alt="Button" />
+               <img src="src/img/button-project.svg" alt="Button" class="w-[253px]" />
             </div>
 
-            <img src="src/img/shape-21.svg" alt="Shape" class="absolute left-56" />
+            <img src="src/img/shape-21.svg" alt="Shape" class="absolute left-56 hidden lg:flex" />
          </div>
          <!-- LABEL -->
 
@@ -662,33 +664,35 @@
                   <h1 class="custom-text text-xl uppercase">News</h1>
                </div>
 
-               <div class="mt-[130px] mb-[130px] flex gap-28 px-4 lg:px-0">
-                  <div class="w-[420px]">
-                     <img src="src/img/logo-footer.svg" alt="Logo" />
-                     <p class="mt-[25px] font-robot text-xl">
+               <div
+                  class="mt-[70px] mb-[70px] flex flex-wrap gap-16 px-4 lg:mb-[130px] lg:mt-[130px] lg:flex-nowrap lg:gap-28 lg:px-0">
+                  <div class="lg:w-[420px]">
+                     <img src="src/img/logo-footer.svg" alt="Logo" class="w-[250px]" />
+                     <p class="mt-[25px] font-robot text-lg lg:text-xl">
                         It is a long established fact that reader will be distracted readable content of when looking.
                      </p>
-                     <p class="mt-[56px] text-[22px]">agency@workment.com</p>
-                     <p class="mt-[30px] text-[22px]">+6281246545857</p>
-                     <div class="mt-[34px] flex gap-3">
-                        <img src="src/img/logo-tweet.svg" alt="Logo" />
-                        <img src="src/img/logo-fb.svg" alt="Logo" />
-                        <img src="src/img/logo-ig.svg" alt="Logo" />
-                        <img src="src/img/logo-pint.svg" alt="Logo" />
+                     <p class="mt-[35px] text-lg lg:mt-[56px] lg:text-[22px]">agency@workment.com</p>
+                     <p class="mt-[20px] text-lg lg:mt-[30px] lg:text-[22px]">+6281246545857</p>
+                     <div class="mt-[20px] flex gap-3 lg:mt-[34px]">
+                        <a href="#"><img src="src/img/logo-tweet.svg" alt="Logo" /></a>
+                        <a href="#"><img src="src/img/logo-fb.svg" alt="Logo" /></a>
+                        <a href="#"><img src="src/img/logo-ig.svg" alt="Logo" /></a>
+                        <a href="#"><img src="src/img/logo-pint.svg" alt="Logo" /></a>
                      </div>
                   </div>
 
                   <div class="relative">
                      <h1 class="text-3xl uppercase">newsletter</h1>
 
-                     <img src="src/img/shape-22.svg" alt="Shape" class="absolute right-8 top-0" />
-                     <div class="mt-5 h-[284px] w-[555px] border-4 bg-[#c2f4ff] p-[50px]">
+                     <img src="src/img/shape-22.svg" alt="Shape" class="absolute right-2 top-0 lg:right-8" />
+                     <div
+                        class="mt-5 h-[220px] w-[358px] border-4 bg-[#c2f4ff] p-[20px] lg:h-[284px] lg:w-[555px] lg:p-[50px]">
                         <input
                            type="text"
-                           class="h-[80px] w-[450px] border-4 text-xl placeholder:pl-[30px] placeholder:font-robot placeholder:text-natural-dark"
+                           class="h-[80px] w-[300px] border-4 text-xl placeholder:pl-[30px] placeholder:font-robot placeholder:text-natural-dark lg:w-[450px]"
                            placeholder="your mail here" />
 
-                        <img src="src/img/button-msg.svg" alt="Button" class="mt-5" />
+                        <img src="src/img/button-msg.svg" alt="Button" class="mt-5 w-[220px]" />
                      </div>
                   </div>
                </div>
@@ -705,7 +709,8 @@
             <div class="flex justify-between bg-natural-white">
                <div class="z-50 hidden w-[96px] items-center justify-center lg:flex lg:border-r-4 lg:border-l-4"></div>
 
-               <div class="flex h-[100px] w-[1199px] items-center justify-evenly bg-natural-pink px-4 lg:px-0">
+               <div
+                  class="hidden h-[100px] w-[1199px] items-center justify-evenly bg-natural-pink px-4 lg:flex lg:px-0">
                   <div
                      class="flex h-[100px] w-[483px] items-center justify-center gap-[57px] border-t-4 border-r-4 bg-natural-peach uppercase text-primary-dark">
                      <a href="#">Home</a>
@@ -731,7 +736,7 @@
 
                <div class="flex h-[100px] w-[1199px] justify-center border-t-4 px-4 lg:px-0">
                   <div class="flex items-center justify-center">
-                     <a href="#" class="text-center font-robot text-lg">
+                     <a href="#" class="text-md text-center font-robot lg:text-lg">
                         Copyright © workment | Designed by VictorFlow Templates - Powered by Webflow
                      </a>
                   </div>
